@@ -1,15 +1,36 @@
 .feed {
     flex: 0.4;
     border-right: 1px solid grey;
+    border-left: 1px solid grey;
     min-width: fit-content;
-    overflow-y: scroll;
+    position: sticky;
+    
+}
+h3 {
+    font-weight: 300;
+}
+
+.feed_header::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
 }
 
 .feed_header {
-    position: sticky;
     top: 0;
-    background-color: white;
+    background-color: black;
     z-index: 100;
-    border: 1px solid blue;
+    border: 1px solid gray;
     padding: 15px 20px;
+    overflow-y: scroll;
+    flex: 0.4; 
+}
+
+.feed_header > img {
+    border-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }

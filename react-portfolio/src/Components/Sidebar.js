@@ -9,7 +9,7 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import InterestsIcon from '@mui/icons-material/Interests';
 import CoffeeIcon from '@mui/icons-material/Coffee';
 
-function Sidebar({text}) {
+function Sidebar({ text }) {
   return (
     <div>
     {/*Icon*/}
