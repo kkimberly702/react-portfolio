@@ -1,6 +1,7 @@
 import React from 'react';
 import SidebarOptions from './SidebarOption';
 import '../Sidebar.css';
+import '../sidebarOption.css';
 import HomeIcon from '@mui/icons-material/Home';
 import TagIcon from '@mui/icons-material/Tag';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
