@@ -6,15 +6,19 @@
 }
 
 .sidebarOption:hover {
-    color: #1DA1F2;
+    color: white;
     border-radius: 30px;
-    background-color: #1DA1F2;
+    background-color: lavenderblush;
     
 }
 .sidebarOption:active {
-    color: #1DA1F2;
+    /* color: #1DA1F2; */
   }
 
 .sidebarOption > h2 {
     padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
 }

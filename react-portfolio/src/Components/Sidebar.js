@@ -1,7 +1,14 @@
 import React from 'react';
+import { Link, Route, Routes } from 'react-router-dom'
+
 import SidebarOptions from './SidebarOption';
-import '../Sidebar.css';
+import About from '../Components/About';
+
+
+
 import '../sidebarOption.css';
+
+// ICONS
 import HomeIcon from '@mui/icons-material/Home';
 import TagIcon from '@mui/icons-material/Tag';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
@@ -19,7 +26,9 @@ function Sidebar({ text }) {
     
 
     {/*About*/}
-    <SidebarOptions Icon={TagIcon} text="About"/>
+    <Link to="/About" element={<About />}><SidebarOptions Icon={TagIcon} text="About" />
+    </Link>
+   
 
     {/*Socials*/}
     <SidebarOptions Icon={PersonOutlineIcon} text="Socials" />
@@ -31,7 +40,7 @@ function Sidebar({ text }) {
     <SidebarOptions Icon={InterestsIcon} text="Projects" />
 
     {/*Coffee*/}
-    <SidebarOptions Icon={CoffeeIcon} text="Buy me an Iced Coffee" />
+    <a href="https://www.buymeacoffee.com/dev.kim" target="_blank"><SidebarOptions Icon={CoffeeIcon} text="Buy me an Iced Coffee!" /></a>
 
 
 
