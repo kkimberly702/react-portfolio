@@ -9,6 +9,7 @@ import LinkIcon from '@mui/icons-material/Link';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 import imgkim from '../images/kim.jpeg';
+import jobtrackr from '../images/jobtrackr.png';
 
 function MainFeed() {
   return (
@@ -17,16 +18,16 @@ function MainFeed() {
     <div className="feed" >
 
 <div className='feed_header'>
-      <img src={imgkim}/>
+<a href="https://twitter.com/dev_kimbeverly" target="_blank"><img className="profile-img" src={imgkim }/></a>
       <h2>Kimberly Aguilar</h2>
-      @dev_kimbeverly
+      <a href="https://twitter.com/dev_kimbeverly" target="_blank">@dev_kimbeverly</a>
       <p>A Latina Full-stack developer with a background in policy and procedures.  
       <br></br>When I am not coding you can find me researching the next crypto moonbag, traveling, trading stocks/cryptocurrency, watching movies or at a local coffee shop buying an iced coffee. 
         <p>Check out some of my projects below!</p>
         </p>
       <br></br>
 
-        <LocationOnIcon /> Las Vegas, Nevada
+        <a href="https://earth.google.com/web/@36.40294029,-115.32574965,969.16324215a,364389.25463475d,35y,-134.12416448h,58.09596309t,0r/data=Cg8aDQoHL20vMHlqcRgBIAE?utm_source=referral&utm_campaign=marketing&utm_campaign=earthview%3Futm_source%3Dwebtekno" target="_blank"><LocationOnIcon /> Las Vegas, Nevada</a>
      
 
         <h3><b>Projects</b></h3>
@@ -36,10 +37,13 @@ function MainFeed() {
 
       
       <div className="project-box">
-        <b>Kimberly</b> @dev_kimbeverly   2h
+        <b>Kimberly</b> @dev_kimbeverly 2h
         <p>
-        This was a group project using React for the frontend and mongoDB.
+        <a href="https://pages.git.generalassemb.ly/theWestCoders/JobTrackr/" target="_blank"><b>JobTrackr</b></a>
+        <br></br>
+        This was a group project designed to help keep track of jobs posted. It was developed using Mongoose, Express, React and Node.js.
         </p>
+        <a href="https://pages.git.generalassemb.ly/theWestCoders/JobTrackr/" target="_blank"><img className="projects-img" src={jobtrackr}/></a>
 
         <div className='footer'>
         <CommentsDisabledIcon fontSize='small'/>
