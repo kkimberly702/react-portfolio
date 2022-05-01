@@ -9,9 +9,7 @@ import About from '../Components/About';
 import '../sidebarOption.css';
 
 // ICONS
-import TagIcon from '@mui/icons-material/Tag';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
-import InterestsIcon from '@mui/icons-material/Interests';
 import CoffeeIcon from '@mui/icons-material/Coffee';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import GitHubIcon from '@mui/icons-material/GitHub';

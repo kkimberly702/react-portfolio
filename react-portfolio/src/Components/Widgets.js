@@ -1,5 +1,10 @@
-import React from 'react';
 import '../widgets.css';
+import WeatherWidget from './WeatherWidget';
+
+
+
+
+
 
 
 function Widgets() {
@@ -7,18 +12,13 @@ function Widgets() {
     <div className='widgets'>
   
         <div className='widgets-box'><h2>What's happening</h2>
+        <WeatherWidget />
         
         <p>
-          Bitcoin
+          
+         
         </p>
-        <p>
-          Ethereum
-
-        </p>
-        <p>
-          Dogecoin
-
-        </p>
+       
 
 
         
@@ -34,5 +34,7 @@ function Widgets() {
         </div>
   )
 }
+
+
 
 export default Widgets;

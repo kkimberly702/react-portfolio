@@ -13,8 +13,9 @@
      border-radius: 50%;
      width: 200px;
      height: 200px;
-     margin: 20px;
+     margin-left: 10px;
      border: 4px solid black;
+     margin-top: 150px;
  }
 
 .projects-img {
@@ -37,6 +38,9 @@ h3 {
 
 .feed_header {
     padding: 15px 10px;
+    background-image: url('./images/unsplash-image-comp.jpg');
+    background-size: 600px 270px;
+    background-repeat: no-repeat;
        
 }
 

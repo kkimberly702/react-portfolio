@@ -44,7 +44,7 @@ function MainFeed() {
         <p>
         <a href="https://kkimberly702.github.io/project-btc-rsi/" target="_blank"><b>Easy Trade Signals using Indicators</b></a>
         <br></br>
-        This was a group project designed to help keep track of jobs posted. It was developed using Mongoose, Express, React and Node.js.
+        This was a project I created using React and an API. I used the Bitcoin 1 hour Relative Strength Index API. I included a possible entry/exit signal for a trade. 
         </p>
         <a href="https://kkimberly702.github.io/project-btc-rsi/" target="_blank"><img className="projects-img" src={btcrsi}/></a>
 
