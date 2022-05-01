@@ -10,11 +10,13 @@ import '../sidebarOption.css';
 
 // ICONS
 import TagIcon from '@mui/icons-material/Tag';
-import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import InterestsIcon from '@mui/icons-material/Interests';
 import CoffeeIcon from '@mui/icons-material/Coffee';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 
 function Sidebar({ text }) {
   return (
@@ -26,18 +28,18 @@ function Sidebar({ text }) {
     
 
     {/*About*/}
-    <Link to="/About" element={<About />}><SidebarOptions Icon={TagIcon} text="About" />
-    </Link>
+    {/* <Link to="/About" element={<About />}><SidebarOptions Icon={TagIcon} text="About" />
+    </Link> */}
    
 
     {/*Socials*/}
-    <SidebarOptions Icon={PersonOutlineIcon} text="Socials" />
+    <a href="https://github.com/kkimberly702" target="_blank"><SidebarOptions Icon={GitHubIcon} text="GitHub" /></a>
+
+    <a href="https://www.linkedin.com/in/kimberlyaguilar00/" target="_blank"><SidebarOptions Icon={LinkedInIcon} text="LinkedIn" /></a>
 
     {/*Resume*/}
     <SidebarOptions Icon={FileDownloadIcon} text="Resume" />
 
-    {/*Projects*/}
-    <SidebarOptions Icon={InterestsIcon} text="Projects" />
 
     {/*Coffee*/}
     <a href="https://www.buymeacoffee.com/dev.kim" target="_blank"><SidebarOptions Icon={CoffeeIcon} text="Buy me an Iced Coffee!" /></a>

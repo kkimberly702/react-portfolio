@@ -4,12 +4,14 @@ import '../mainfeed.css';
 /*ICONS */
 import CommentsDisabledIcon from '@mui/icons-material/CommentsDisabled';
 import RepeatIcon from '@mui/icons-material/Repeat';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 import LinkIcon from '@mui/icons-material/Link';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
+// IMAGES
 import imgkim from '../images/kim.jpeg';
 import jobtrackr from '../images/jobtrackr.png';
+import btcrsi from '../images/TradeSignals.png';
 
 function MainFeed() {
   return (
@@ -30,14 +32,35 @@ function MainFeed() {
         <a href="https://earth.google.com/web/@36.40294029,-115.32574965,969.16324215a,364389.25463475d,35y,-134.12416448h,58.09596309t,0r/data=Cg8aDQoHL20vMHlqcRgBIAE?utm_source=referral&utm_campaign=marketing&utm_campaign=earthview%3Futm_source%3Dwebtekno" target="_blank"><LocationOnIcon /> Las Vegas, Nevada</a>
      
 
-        <h3><b>Projects</b></h3>
+        <div className='border-box'><h3><b>Projects</b></h3></div>
        
 </div>
       
 
+
+
+<div className="project-box">
+        <b>Kimberly</b> <span className='twitter-handle'>@dev_kimbeverly </span>
+        <p>
+        <a href="https://kkimberly702.github.io/project-btc-rsi/" target="_blank"><b>Easy Trade Signals using Indicators</b></a>
+        <br></br>
+        This was a group project designed to help keep track of jobs posted. It was developed using Mongoose, Express, React and Node.js.
+        </p>
+        <a href="https://kkimberly702.github.io/project-btc-rsi/" target="_blank"><img className="projects-img" src={btcrsi}/></a>
+
+        <div className='footer'>
+        <CommentsDisabledIcon fontSize='small'/>
+        <RepeatIcon fontSize='small'/>
+        <span className='heart-icon'><FavoriteIcon fontSize='small'/></span>
+        <a href="https://kkimberly702.github.io/project-btc-rsi/" target="_blank"><LinkIcon fontSize='small'/></a>
+        </div>
+      </div>
+
+      
+
       
       <div className="project-box">
-        <b>Kimberly</b> @dev_kimbeverly 2h
+        <b>Kimberly</b> <span className='twitter-handle'>@dev_kimbeverly </span>
         <p>
         <a href="https://pages.git.generalassemb.ly/theWestCoders/JobTrackr/" target="_blank"><b>JobTrackr</b></a>
         <br></br>
@@ -48,10 +71,12 @@ function MainFeed() {
         <div className='footer'>
         <CommentsDisabledIcon fontSize='small'/>
         <RepeatIcon fontSize='small'/>
-        <FavoriteBorderIcon fontSize='small'/>
-        <LinkIcon fontSize='small'/>
+        <span className='heart-icon'><FavoriteIcon fontSize='small'/></span>
+        <a href="https://pages.git.generalassemb.ly/theWestCoders/JobTrackr/" target="_blank"><LinkIcon fontSize='small'/></a>
         </div>
       </div>
+
+      
 
 
     </div>

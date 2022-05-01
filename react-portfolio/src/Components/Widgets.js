@@ -5,7 +5,31 @@ import '../widgets.css';
 function Widgets() {
   return (
     <div className='widgets'>
-        <h2>Widgets</h2>
+  
+        <div className='widgets-box'><h2>What's happening</h2>
+        
+        <p>
+          Bitcoin
+        </p>
+        <p>
+          Ethereum
+
+        </p>
+        <p>
+          Dogecoin
+
+        </p>
+
+
+        
+        
+        
+        
+        
+        
+        
+        </div>
+        
       
         </div>
   )

@@ -1,3 +1,13 @@
 .widgets {
     flex: 0.3;
 }
+
+.widgets-box {
+    background-color: #333338;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px;
+
+}
