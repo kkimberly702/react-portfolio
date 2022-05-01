@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Route, Routes } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import SidebarOptions from './SidebarOption';
 import About from '../Components/About';
@@ -9,20 +9,20 @@ import About from '../Components/About';
 import '../sidebarOption.css';
 
 // ICONS
-import HomeIcon from '@mui/icons-material/Home';
 import TagIcon from '@mui/icons-material/Tag';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import InterestsIcon from '@mui/icons-material/Interests';
 import CoffeeIcon from '@mui/icons-material/Coffee';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 function Sidebar({ text }) {
   return (
-    <div>
-    {/*Icon*/}
+    <div className='sidebars'>
+  
 
     {/*Home*/}
-    <SidebarOptions active Icon={HomeIcon} text="Home" />
+    <SidebarOptions active Icon={FavoriteBorderIcon} text="dev_kimberly" />
     
 
     {/*About*/}

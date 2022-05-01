@@ -12,9 +12,10 @@ function App() {
       
 <main>
   <meta name="color-scheme" content="dark light"></meta>
+
 <Routes>
   <Route path="/" element={<Home />}/>
-<Route path="/About" element={<About />}/>
+  <Route path="/About" element={<About />}/>
 
 </Routes>
 </main>
