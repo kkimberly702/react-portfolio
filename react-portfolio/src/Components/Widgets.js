@@ -1,9 +1,6 @@
 import '../widgets.css';
 import WeatherWidget from './WeatherWidget';
-
-
-
-
+import BtcWidget from './BtcWidget';
 
 
 
@@ -13,21 +10,10 @@ function Widgets() {
   
         <div className='widgets-box'><h2>What's happening</h2>
         <WeatherWidget />
-        
-        <p>
-          
-         
-        </p>
-       
-
-
-        
-        
-        
-        
-        
-        
-        
+      
+        </div>
+        <div className='widgets-box'><h2>Cryptocurrency</h2>
+        <BtcWidget />
         </div>
         
       

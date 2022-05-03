@@ -12,6 +12,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import imgkim from '../images/kim.jpeg';
 import jobtrackr from '../images/jobtrackr.png';
 import btcrsi from '../images/TradeSignals.png';
+import kimportfolio from '../images/kim-portfolio.png';
 
 function MainFeed() {
   return (
@@ -29,7 +30,7 @@ function MainFeed() {
         </p>
       <br></br>
 
-        <a href="https://earth.google.com/web/@36.40294029,-115.32574965,969.16324215a,364389.25463475d,35y,-134.12416448h,58.09596309t,0r/data=Cg8aDQoHL20vMHlqcRgBIAE?utm_source=referral&utm_campaign=marketing&utm_campaign=earthview%3Futm_source%3Dwebtekno" target="_blank"><LocationOnIcon /> Las Vegas, Nevada</a>
+        <a href="https://earth.google.com/web/@36.40294029,-115.32574965,969.16324215a,364389.25463475d,35y,-134.12416448h,58.09596309t,0r/data=Cg8aDQoHL20vMHlqcRgBIAE?utm_source=referral&utm_campaign=marketingutm_campaign=earthview%3Futm_source%3Dwebtekno" target="_blank"><LocationOnIcon /> Las Vegas, Nevada</a>
      
 
         <div className='border-box'><h3><b>Projects</b></h3></div>
@@ -73,6 +74,26 @@ function MainFeed() {
         <RepeatIcon fontSize='small'/>
         <span className='heart-icon'><FavoriteIcon fontSize='small'/></span>
         <a href="https://pages.git.generalassemb.ly/theWestCoders/JobTrackr/" target="_blank"><LinkIcon fontSize='small'/></a>
+        </div>
+      </div>
+
+
+
+
+      <div className="project-box">
+        <b>Kimberly</b> <span className='twitter-handle'>@dev_kimbeverly </span>
+        <p>
+        <a href="https://kkimberly702.github.io/portfolio/" target="_blank"><b>Personal Portfolio</b></a>
+        <br></br>
+        This was my first attempt at making my personal portfolio. I then decided to remake it using React and BootStrap. It was developed using HTML, CSS and some JavaScript.
+        </p>
+        <a href="https://kkimberly702.github.io/portfolio/" target="_blank"><img className="projects-img" src={kimportfolio}/></a>
+
+        <div className='footer'>
+        <CommentsDisabledIcon fontSize='small'/>
+        <RepeatIcon fontSize='small'/>
+        <span className='heart-icon'><FavoriteIcon fontSize='small'/></span>
+        <a href="https://kkimberly702.github.io/portfolio/" target="_blank"><LinkIcon fontSize='small'/></a>
         </div>
       </div>
 

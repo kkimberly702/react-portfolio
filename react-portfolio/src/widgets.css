@@ -11,3 +11,14 @@
     margin: 20px;
 
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .widgets-box {
+        width: 250px;
+        height: 250px;
+        
+    }
+}

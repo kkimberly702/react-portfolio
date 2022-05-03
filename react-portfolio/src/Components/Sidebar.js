@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 import SidebarOptions from './SidebarOption';
-import About from '../Components/About';
+import Home from '../Components/Home';
 
-
-
+//CSS 
 import '../sidebarOption.css';
 
 // ICONS
@@ -16,18 +15,16 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
+
 function Sidebar({ text }) {
   return (
+   
     <div className='sidebars'>
   
-
-    {/*Home*/}
-    <SidebarOptions active Icon={FavoriteBorderIcon} text="dev_kimberly" />
     
-
-    {/*About*/}
-    {/* <Link to="/About" element={<About />}><SidebarOptions Icon={TagIcon} text="About" />
-    </Link> */}
+    {/*Home*/}
+    <Link to='/' element={<Home />}><SidebarOptions Icon={FavoriteBorderIcon} text="dev_kimberly" /></Link>
+  
    
 
     {/*Socials*/}
@@ -41,7 +38,6 @@ function Sidebar({ text }) {
 
     {/*Coffee*/}
     <a href="https://www.buymeacoffee.com/dev.kim" target="_blank"><SidebarOptions Icon={CoffeeIcon} text="Buy me an Iced Coffee!" /></a>
-
 
 
     </div>

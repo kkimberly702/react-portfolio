@@ -11,7 +11,12 @@ function Home() {
     <Sidebar />
     <MainFeed />
     <Widgets />
+
+
+
     </div>
+
+
   )
 }
 

@@ -1,4 +1,7 @@
+// require('dotenv').config()
 import React, { useEffect, useState } from 'react';
+
+
 
 
 function WeatherWidget() {
@@ -6,9 +9,8 @@ function WeatherWidget() {
         const [weatherCall, setWeatherCall] = useState({});
        
         
-        
           useEffect(() => {
-            fetch('http://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_SECRET_NAME}&q=Las%20Vegas&aqi=no')
+            fetch('http://api.weatherapi.com/v1/current.json?key='+`${process.env.REACT_APP_SECRET_NAME}`+'&q=Las%20Vegas&aqi=no')
             .then((reponse) => reponse.json())
             .then((data) => setWeatherCall(data.current))
             .catch((error) => console.log(error));
@@ -16,16 +18,16 @@ function WeatherWidget() {
 
           console.log(process.env);
       
-        //   console.log(weatherCall);
+        console.log(weatherCall);
           
       
   return (
     <div>
         <b>Las Vegas current Weather:</b>
-        {/* <h3>Temperature: {weatherCall.temp_f} f</h3>
+        <h3>Temperature: {weatherCall.temp_f} f</h3>
         <h3>Humidity: {weatherCall.humidity}</h3>
         <h3>Feels like: {weatherCall.feelslike_f} f</h3>
-        <h3>Clouds: {weatherCall.cloud}</h3> */}
+        <h3>Clouds: {weatherCall.cloud}</h3>
       
        
         
@@ -34,4 +36,9 @@ function WeatherWidget() {
   )
 }
 
+
+
+
+
 export default WeatherWidget
+

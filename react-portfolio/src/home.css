@@ -7,3 +7,16 @@
     margin-right: auto;
     
 }
+
+.navbar {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .home-div {
+        display: block;
+        
+    }
+}
+
