@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c535e390.css",
+    "main.js": "/react-portfolio/static/js/main.7a44961f.js",
+    "static/js/787.0e6c9168.chunk.js": "/react-portfolio/static/js/787.0e6c9168.chunk.js",
+    "static/media/jobtrackr.png": "/react-portfolio/static/media/jobtrackr.464fc055913fedfda026.png",
+    "static/media/TradeSignals.png": "/react-portfolio/static/media/TradeSignals.0ca9eae4f5b2b8c6e906.png",
+    "static/media/unsplash-image-comp.jpg": "/react-portfolio/static/media/unsplash-image-comp.9037e13b32c71a88f493.jpg",
+    "static/media/kim-portfolio.png": "/react-portfolio/static/media/kim-portfolio.18a755e590461446fc0f.png",
+    "static/media/kim.jpeg": "/react-portfolio/static/media/kim.015c92a24111ef645057.jpeg",
+    "static/media/KResume.pdf": "/react-portfolio/static/media/KResume.af4aac36fa674ebdf59a.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.c535e390.css.map": "/react-portfolio/static/css/main.c535e390.css.map",
+    "main.7a44961f.js.map": "/react-portfolio/static/js/main.7a44961f.js.map",
+    "787.0e6c9168.chunk.js.map": "/react-portfolio/static/js/787.0e6c9168.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c535e390.css",
+    "static/js/main.7a44961f.js"
+  ]
+}
