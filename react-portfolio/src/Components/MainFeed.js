@@ -25,7 +25,7 @@ function MainFeed() {
 <a href="https://twitter.com/dev_kimbeverly" target="_blank"><img className="profile-img" src={imgkim}/></a>
       <h2>Kimberly Aguilar</h2>
       <a href="https://twitter.com/dev_kimbeverly" target="_blank" id='twitter'>@dev_kimbeverly</a>
-      <p>A Latina full stack developer with a background in policy and procedures. I enjoy creating web aplications for family and friends. My favorite library at the moment is ReactJS.    
+      <p>A Latina full stack developer with a background in policy and procedures. I enjoy creating web applications for family and friends. My favorite library at the moment is ReactJS.    
       <br></br>When I am not coding you can find me fishing, traveling, concerts/shows, watching movies (comedies) or at a local coffee shop buying an iced coffee. 
         <p>Check out some of my projects below!</p>
         </p>
