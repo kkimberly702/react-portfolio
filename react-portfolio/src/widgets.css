@@ -1,5 +1,9 @@
+
+
 .widgets {
     flex: 0.3;
+    background-color: black;
+    
 }
 
 .widgets-box {
@@ -9,6 +13,7 @@
     border-radius: 20px;
     padding: 10px 20px;
     margin: 20px;
+    
 
 }
 
@@ -16,9 +21,19 @@
 
 @media only screen and (max-width: 600px) {
 
+    .widgets {
+        display: inline-block;
+        background-color: black;
+        width: 100%;
+    }
+
     .widgets-box {
         width: 250px;
         height: 250px;
         
+    }
+
+    .widgets-background {
+        background-color: black;
     }
 }

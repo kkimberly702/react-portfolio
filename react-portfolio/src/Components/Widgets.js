@@ -7,6 +7,7 @@ import BtcWidget from './BtcWidget';
 function Widgets() {
   return (
     <div className='widgets'>
+      <div className='widgets-background'>
   
         <div className='widgets-box'><h2>What's happening</h2>
         <WeatherWidget />
@@ -16,7 +17,7 @@ function Widgets() {
         <BtcWidget />
         </div>
         
-      
+        </div>
         </div>
   )
 }

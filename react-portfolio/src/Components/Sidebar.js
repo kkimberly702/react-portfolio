@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+//COMPONENTS
 import SidebarOptions from './SidebarOption';
 import Home from '../Components/Home';
 
@@ -14,6 +15,8 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
+//RESUME
+import Resume from '../images/KResume.pdf'
 
 
 function Sidebar({ text }) {
@@ -33,7 +36,7 @@ function Sidebar({ text }) {
     <a href="https://www.linkedin.com/in/kimberlyaguilar00/" target="_blank"><SidebarOptions Icon={LinkedInIcon} text="LinkedIn" /></a>
 
     {/*Resume*/}
-    <SidebarOptions Icon={FileDownloadIcon} text="Resume" />
+    <a href={Resume} target="_blank"><SidebarOptions Icon={FileDownloadIcon} text="Resume" /></a>
 
 
     {/*Coffee*/}

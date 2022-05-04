@@ -16,18 +16,18 @@ function WeatherWidget() {
             .catch((error) => console.log(error));
           }, [])
 
-          console.log(process.env);
+          // console.log(process.env);
       
-        console.log(weatherCall);
+        // console.log(weatherCall);
           
       
   return (
-    <div>
+    <div className='weather'>
         <b>Las Vegas current Weather:</b>
-        <h3>Temperature: {weatherCall.temp_f} f</h3>
-        <h3>Humidity: {weatherCall.humidity}</h3>
-        <h3>Feels like: {weatherCall.feelslike_f} f</h3>
-        <h3>Clouds: {weatherCall.cloud}</h3>
+        <h4>Temperature: {weatherCall.temp_f} f</h4>
+        <h4>Humidity: {weatherCall.humidity}</h4>
+        <h4>Feels like: {weatherCall.feelslike_f} f</h4>
+        <h4>Clouds: {weatherCall.cloud}</h4>
       
        
         
