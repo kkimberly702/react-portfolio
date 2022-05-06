@@ -10,7 +10,7 @@ function WeatherWidget() {
        
         
           useEffect(() => {
-            fetch('http://api.weatherapi.com/v1/current.json?key='+`${process.env.REACT_APP_SECRET_NAME}`+'&q=Las%20Vegas&aqi=no')
+            fetch('https://api.weatherapi.com/v1/current.json?key='+`${process.env.REACT_APP_SECRET_NAME}`+'&q=Las%20Vegas&aqi=no')
             .then((reponse) => reponse.json())
             .then((data) => setWeatherCall(data.current))
             .catch((error) => console.log(error));
